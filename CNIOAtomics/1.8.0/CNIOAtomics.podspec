@@ -18,7 +18,5 @@ Pod::Spec.new do |s|
   s.swift_version       = '4.1'
   s.module_name         = 'CNIOAtomics'
 
-  s.pod_target_xcconfig   = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
-
   s.source_files        = 'Sources/CNIOAtomics/**/*'
 end
